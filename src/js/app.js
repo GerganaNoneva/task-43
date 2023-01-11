@@ -1,4 +1,4 @@
-import "../scss/app.scss";
+//import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
@@ -7,4 +7,11 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+
+  
+
 });
+
+setTimeout(()=>{let title=document.querySelector('title');
+title.innerHTML="New";},3000);
