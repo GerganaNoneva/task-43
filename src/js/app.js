@@ -14,4 +14,4 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 setTimeout(()=>{let title=document.querySelector('title');
-title.innerHTML="New";},3000);
+title.innerHTML="One new message";},3000);
